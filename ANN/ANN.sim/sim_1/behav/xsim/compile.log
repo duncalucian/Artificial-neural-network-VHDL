@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/ouputLayer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'outputLayer'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/network.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'network'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Vivado/Projects/ANN/ANN.srcs/sim_1/new/ANN_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ANN_tb'

@@ -1,0 +1,24 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 262a52ad025044c7af1e98cc4afe0612 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ANN_tb_behav xil_defaultlib.ANN_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.type_declarations
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.first_layer [\first_layer(imgsize=20)\]
+Compiling architecture behavioral of entity xil_defaultlib.reLu [relu_default]
+Compiling architecture behavioral of entity xil_defaultlib.matrixMultiplication [\matrixMultiplication(c1=10,r1=4...]
+Compiling architecture behavioral of entity xil_defaultlib.hiddenLayer [\hiddenLayer(numneurons=10,numin...]
+Compiling architecture behavioral of entity xil_defaultlib.matrixMultiplication [\matrixMultiplication(c1=10,r1=1...]
+Compiling architecture behavioral of entity xil_defaultlib.normalizare [\normalizare(numneurons=10)\]
+Compiling architecture behavioral of entity xil_defaultlib.outputLayer [\outputLayer(numneurons=10,numin...]
+Compiling architecture behavioral of entity xil_defaultlib.network [\network(imgsize=20)\]
+Compiling architecture behavioral of entity xil_defaultlib.ann_tb
+Built simulation snapshot ANN_tb_behav

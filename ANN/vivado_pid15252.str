@@ -1,0 +1,195 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 15252
+License: Customer
+
+Current time: 	Thu Dec 10 17:12:18 EET 2020
+Time zone: 	Eastern European Standard Time (Europe/Athens)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 14 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	E:/Vivado/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	E:/Vivado/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Dunca
+User home directory: C:/Users/Dunca
+User working directory: E:/Vivado/Projects/ANN
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: E:/Vivado/Vivado
+HDI_APPROOT: E:/Vivado/Vivado/2019.2
+RDI_DATADIR: E:/Vivado/Vivado/2019.2/data
+RDI_BINDIR: E:/Vivado/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/Dunca/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/Dunca/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/Dunca/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	E:/Vivado/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/Vivado/Projects/ANN/vivado.log
+Vivado journal file location: 	E:/Vivado/Projects/ANN/vivado.jou
+Engine tmp dir: 	E:/Vivado/Projects/ANN/.Xil/Vivado-15252-DESKTOP-I41OGH0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/Vivado/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: E:/Vivado/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: E:/Vivado/Vivado/2019.2
+XILINX_VIVADO: E:/Vivado/Vivado/2019.2
+XILINX_VIVADO_HLS: E:/Vivado/Vivado/2019.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 542 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  2455 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: E:\Vivado\Projects\ANN\ANN.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 555 MB. GUI used memory: 50 MB. Current time: 12/10/20, 5:12:22 PM EET
+// Tcl Message: open_project E:/Vivado/Projects/ANN/ANN.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/Vivado/Projects/ANN/ANN.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 63 MB (+63950kb) [00:00:35]
+// [Engine Memory]: 606 MB (+484432kb) [00:00:35]
+// [GUI Memory]: 75 MB (+9200kb) [00:00:36]
+// [GUI Memory]: 99 MB (+20664kb) [00:00:37]
+// [GUI Memory]: 108 MB (+4463kb) [00:00:40]
+// WARNING: HEventQueue.dispatchEvent() is taking  7473 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 637 MB. GUI used memory: 55 MB. Current time: 12/10/20, 5:12:37 PM EET
+// Project name: ANN; location: E:/Vivado/Projects/ANN; part: xc7a35tcpg236-1
+// [Engine Memory]: 637 MB (+61kb) [00:00:42]
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 656.941 ; gain = 79.414 
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 56 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cr)
+// [Engine Memory]: 672 MB (+3239kb) [00:01:39]
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// I (cr): Settings: addNotify
+// 'dy' command handler elapsed time: 4 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  5025 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 685 MB. GUI used memory: 70 MB. Current time: 12/10/20, 5:13:40 PM EET
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Elaboration]", 2, false); // L (E, I)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // L (E, I)
+selectTree("PAResourceOtoP.ProgramOptionsPanelImpl_STRATEGY", "[Run Strategies, Vivado Strategies, Flow_RuntimeOptimized]", 9, false); // TreeChooserPanel (I, ResizableWindow)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // L (E, I)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Implementation]", 4, false); // L (E, I)
+selectTree("PAResourceOtoP.ProgramOptionsPanelImpl_STRATEGY", "[Run Strategies, Vivado Strategies, Flow_Quick]", 31, false); // TreeChooserPanel (I, ResizableWindow)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Bitstream]", 5, false); // L (E, I)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Implementation]", 4, false); // L (E, I)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // L (E, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// WARNING: HEventQueue.dispatchEvent() is taking  2037 ms.
+// Tcl Message: set_property strategy Flow_RuntimeOptimized [get_runs synth_1] 
+// Tcl Message: set_property strategy Flow_Quick [get_runs impl_1] 
+dismissDialog("Settings"); // I (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): No Implementation Results Available: addNotify
+// [GUI Memory]: 123 MB (+10269kb) [00:02:00]
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// f (cr): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// bB (cr):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec 10 17:13:58 2020] Launched synth_1... Run output will be captured here: E:/Vivado/Projects/ANN/ANN.runs/synth_1/runme.log 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec 10 17:13:59 2020] Launched impl_1... Run output will be captured here: E:/Vivado/Projects/ANN/ANN.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 26 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Dec 10 17:14:13 EET 2020 ; 00:00:03 ; Flow_RuntimeOptimized (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a35tcpg236-1 ; Trades off Performance and Area for better Runtime.", 0, (String) null, 16, true); // az (O, cr) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.8s
+// WARNING: HEventQueue.dispatchEvent() is taking  1209 ms.
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Dec 10 17:14:13 EET 2020 ; 00:00:03 ; Flow_RuntimeOptimized (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a35tcpg236-1 ; Trades off Performance and Area for better Runtime.", 0, (String) null, 16, true); // az (O, cr) - Node
+// [GUI Memory]: 132 MB (+3109kb) [00:04:17]
+// Elapsed time: 107 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Queued... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Flow_Quick (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xc7a35tcpg236-1 ; Fastest possible runtime, all timing-driven behavior disabled. Useful for utilization estimation.", 1, (String) null, 17, false); // az (O, cr)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.2s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Dec 10 17:14:13 EET 2020 ; 00:01:13 ; Flow_RuntimeOptimized (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a35tcpg236-1 ; Trades off Performance and Area for better Runtime.", 0, (String) null, 17, true); // az (O, cr) - Node
+// Elapsed time: 13 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Queued... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Flow_Quick (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xc7a35tcpg236-1 ; Fastest possible runtime, all timing-driven behavior disabled. Useful for utilization estimation.", 1, (String) null, 6, false); // az (O, cr)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Dec 10 17:14:13 EET 2020 ; 00:01:13 ; Flow_RuntimeOptimized (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a35tcpg236-1 ; Trades off Performance and Area for better Runtime.", 0, (String) null, 6, true); // az (O, cr) - Node
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Queued... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Flow_Quick (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xc7a35tcpg236-1 ; Fastest possible runtime, all timing-driven behavior disabled. Useful for utilization estimation.", 1, (String) null, 13, false); // az (O, cr)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Dec 10 17:14:13 EET 2020 ; 00:02:27 ; Flow_RuntimeOptimized (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a35tcpg236-1 ; Trades off Performance and Area for better Runtime.", 0, (String) null, 13, true); // az (O, cr) - Node
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1010 ms. Increasing delay to 3030 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1149 ms. Increasing delay to 3000 ms.
+// Elapsed time: 316 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Queued... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Flow_Quick (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xc7a35tcpg236-1 ; Fastest possible runtime, all timing-driven behavior disabled. Useful for utilization estimation.", 1, (String) null, 14, false); // az (O, cr)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.2s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Dec 10 17:14:13 EET 2020 ; 00:03:40 ; Flow_RuntimeOptimized (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a35tcpg236-1 ; Trades off Performance and Area for better Runtime.", 0, (String) null, 16, true); // az (O, cr) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  8639622 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3645 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2401 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 700 MB. GUI used memory: 74 MB. Current time: 12/10/20, 7:47:50 PM EET
+// PAPropertyPanels.initPanels (main.vhd) elapsed time: 0.4s
+// Elapsed time: 8768 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main(Behavioral) (main.vhd)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main(Behavioral) (main.vhd)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Dec 10 17:14:13 EET 2020 ; 00:03:40 ; Flow_RuntimeOptimized (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a35tcpg236-1 ; Trades off Performance and Area for better Runtime.", 0, (String) null, 17, true); // az (O, cr) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Dec 10 17:14:13 EET 2020 ; 00:03:40 ; Flow_RuntimeOptimized (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a35tcpg236-1 ; Trades off Performance and Area for better Runtime.", 0, (String) null, 17, true); // az (O, cr) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Dec 10 17:14:13 EET 2020 ; 00:03:40 ; Flow_RuntimeOptimized (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a35tcpg236-1 ; Trades off Performance and Area for better Runtime.", 0, (String) null, 16, true); // az (O, cr) - Node
+selectCodeEditor("main.vhd", 551, 256); // ch (w, cr)
+selectCodeEditor("main.vhd", 103, 184); // ch (w, cr)

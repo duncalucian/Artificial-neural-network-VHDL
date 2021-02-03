@@ -1,0 +1,18 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/Vivado/Projects/ANN/ANN.srcs/sim_1/new/ANN_tb.vhd,1607629183,vhdl,,,,ann_tb,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sim_1/new/first_layer_tb.vhd,1608655848,vhdl,,,,first_layer_tb,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sim_1/new/hidden_layer_tb.vhd,1608656480,vhdl,,,,hidden_layer_tb,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sim_1/new/matrixMultiplication_tb.vhd,1608643041,vhdl,,,,matrixmultiplication_tb,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sim_1/new/softMax_tb.vhd,1608643622,vhdl,,,,normalizare_tb,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/first_layer.vhd,1605624778,vhdl,E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/network.vhd,,,first_layer,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/hiddenLayer.vhd,1608481063,vhdl,E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/network.vhd,,,hiddenlayer,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/main.vhd,1605704656,vhdl,E:/Vivado/Projects/ANN/ANN.srcs/sim_1/new/ANN_tb.vhd,,,main,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/matrixMultiplication.vhd,1608480789,vhdl,E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/hiddenLayer.vhd;E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/ouputLayer.vhd,,,matrixmultiplication,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/network.vhd,1607602258,vhdl,E:/Vivado/Projects/ANN/ANN.srcs/sim_1/new/ANN_tb.vhd,,,network,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/ouputLayer.vhd,1608643486,vhdl,E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/network.vhd,,,outputlayer,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/reLu.vhd,1603971986,vhdl,E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/hiddenLayer.vhd,,,relu,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/softMax.vhd,1608643474,vhdl,E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/ouputLayer.vhd,,,normalizare,,,,,,,,
+E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/type_declarations.vhd,1608480385,vhdl,E:/Vivado/Projects/ANN/ANN.srcs/sim_1/new/ANN_tb.vhd;E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/first_layer.vhd;E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/hiddenLayer.vhd;E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/matrixMultiplication.vhd;E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/network.vhd;E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/ouputLayer.vhd;E:/Vivado/Projects/ANN/ANN.srcs/sources_1/new/softMax.vhd,,,type_declarations,,,,,,,,

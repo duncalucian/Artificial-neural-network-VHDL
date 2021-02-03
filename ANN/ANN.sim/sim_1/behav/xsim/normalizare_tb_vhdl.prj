@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ANN.srcs/sources_1/new/type_declarations.vhd" \
+"../../../../ANN.srcs/sources_1/new/softMax.vhd" \
+"../../../../ANN.srcs/sim_1/new/softMax_tb.vhd" \
+
+# Do not sort compile order
+nosort
